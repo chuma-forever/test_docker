@@ -8,6 +8,7 @@
     "@wdio/mocha-framework": "^5.7.6",
     "@wdio/selenium-standalone-service": "^5.7.2",
     "@wdio/spec-reporter": "^5.7.2",
+    "assert": "^1.4.1",
     "webdriverio": "^5.7.6"
   },
   "devDependencies": {
