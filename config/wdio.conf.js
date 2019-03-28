@@ -1,7 +1,7 @@
 exports.config = {
     services: ['selenium-standalone'],
   seleniumInstallArgs: {},
-  waitforTimeout: 10000,
+  waitforTimeout: 90000,
     // ==================================
     // Where should your test be launched
     // ==================================
@@ -136,7 +136,7 @@ exports.config = {
     framework: 'mocha',
     //
     // The number of times to retry the entire specfile when it fails as a whole
-    specFileRetries: 1,
+    specFileRetries: 0,
     //
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
